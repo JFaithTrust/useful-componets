@@ -9,7 +9,7 @@ const VerticalAccordion = () => {
     const [open, setOpen] = useState(items[0].id);
 
     return (
-        <section className="p-4 bg-indigo-600">
+        <section className="p-4">
             <div className="flex flex-col lg:flex-row h-fit lg:h-[450px] w-full max-w-6xl mx-auto shadow overflow-hidden">
                 {items.map((item) => {
                     return (

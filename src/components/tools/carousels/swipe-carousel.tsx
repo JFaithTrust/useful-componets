@@ -57,7 +57,7 @@ export const SwipeCarousel = () => {
     };
 
     return (
-        <div className="relative overflow-hidden bg-neutral-950 py-8">
+        <div className="relative overflow-hidden py-8">
             <motion.div
                 drag="x"
                 dragConstraints={{
@@ -103,7 +103,7 @@ const Images = ({ imgIndex }: ImagesProps) => {
                             scale: imgIndex === idx ? 0.95 : 0.85,
                         }}
                         transition={SPRING_OPTIONS}
-                        className="aspect-video w-screen shrink-0 rounded-xl bg-neutral-800 object-cover"
+                        className="aspect-video w-screen shrink-0 rounded-xl object-cover"
                     />
                 );
             })}

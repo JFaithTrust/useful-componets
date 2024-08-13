@@ -2,7 +2,7 @@ import React from "react";
 
 const DrawOutlineButton = ({ children, ...rest }: {children: string}) => {
     return (
-        <div className="grid min-h-[200px] place-content-center bg-slate-900 p-4">
+        <div className="grid min-h-[200px] place-content-center border p-4">
             <button
                 {...rest}
                 className="group relative px-4 py-2 font-medium text-slate-100 transition-colors duration-[400ms] hover:text-indigo-300"

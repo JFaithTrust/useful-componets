@@ -3,7 +3,7 @@ import { FiCreditCard, FiMail, FiUser, FiUsers } from "react-icons/fi";
 
 const HoverDevCards = () => {
     return (
-        <div className="p-4">
+        <div className="p-4 border">
             <p className="text-xl font-semibold mb-2">Settings</p>
             <div className="grid gap-4 grid-cols-2 lg:grid-cols-4">
                 <Card

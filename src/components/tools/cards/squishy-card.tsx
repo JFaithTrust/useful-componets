@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const SquishyCard = () => {
     return (
-        <section className="bg-neutral-900 px-4 py-12">
+        <section className="border px-4 py-12">
             <div className="mx-auto w-fit">
                 <Card />
             </div>

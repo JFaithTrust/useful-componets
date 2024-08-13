@@ -23,7 +23,7 @@ const TiltCard = () => {
 
     const transform = useMotionTemplate`rotateX(${xSpring}deg) rotateY(${ySpring}deg)`;
 
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: any) => {
         if (!ref.current) return [0, 0];
 
         // @ts-ignore
@@ -48,7 +48,7 @@ const TiltCard = () => {
     };
 
     return (
-        <div className={"grid w-full place-content-center bg-gradient-to-br from-indigo-500 to-violet-500 px-4 py-12 text-slate-900"}>
+        <div className={"grid w-full place-content-center border px-4 py-12 text-slate-900"}>
             <motion.div
                 ref={ref}
                 onMouseMove={handleMouseMove}
